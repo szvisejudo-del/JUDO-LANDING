@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vissza a Judohoz | SZVISE Judo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+
+  <div style="position:absolute; top:0; left:0; width:100%; height:100%; overflow:hidden; z-index:1;">
+    <iframe 
+      src="https://www.youtube.com/embed/SMbHlEVB8ms?autoplay=1&mute=1&loop=1&playlist=SMbHlEVB8ms&controls=0&showinfo=0&rel=0"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen
+      style="position:absolute; top:50%; left:50%; width:120%; height:120%; transform:translate(-50%, -50%); pointer-events:none;">
+    </iframe>
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="hero-content">
+      <div class="top-badge">SZVISE Judo • Visszahívó ajánlat régi judosoknak</div>
+      <h1>Lehet, hogy abbahagytad.<br>De a Judo nem múlt el belőled.</h1>
+      <p class="hero-subtitle">
+        A judo nem csak egy sport. Fegyelmet, alázatot, kitartást, testtudatot,
+        koordinációt és olyan belső tartást ad, ami az élet minden területén értékké válik.
+        Ha szeretnél visszatérni, most itt a lehetőség.
+      </p>
+
+      <div class="cta-row">
+        <button class="btn btn-primary" onclick="openModal()">Kérem az 1 hónap ingyen lehetőséget</button>
+        <a class="btn btn-secondary" href="#orarend">Megnézem az órarendet</a>
+      </div>
+
+      <a class="phone-box" href="tel:+36 70 882 773">
+        📞 Kattints és hívj most: <strong>+36 70 882 2773</strong>
+      </a>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Miért érdemes visszatérni?</h2>
+      <p class="section-lead">
+        A mai világban egyre nehezebb megtalálni azt a közeget, ami egyszerre építi a testet,
+        az elmét és a jellemet. A judo pontosan ilyen közeg.
+      </p>
+
+      <div class="values-grid">
+        <div class="card">
+          <h3>Egészségesebb, kiegyensúlyozottabb élet</h3>
+          <p>
+            A rendszeres mozgás nemcsak fizikailag tesz erősebbé, hanem mentálisan is stabilabbá,
+            energikusabbá és kiegyensúlyozottabbá tesz a hétköznapokban.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Klasszikus értékek</h3>
+          <p>
+            Fegyelem, alázat, kitartás, tisztelet. Ezek nem csak szép szavak, hanem olyan alapok,
+            amelyekre hosszú távon boldogabb és erősebb életet lehet építeni.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Kimagasló testi fejlődés</h3>
+          <p>
+            A judo rendkívül sokat ad koordinációban, mozgáskultúrában, testtudatban,
+            reakciókészségben és általános fizikai felkészültségben is.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container gallery-wrap">
+      <div class="slider-box">
+        <img id="galleryImage" src="https://szvisejudo.hu/storage/img-0323.jpeg" alt="Judo terem pillanatkép">
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom: 16px;">A közeg is számít</h3>
+        <p style="margin-bottom: 14px;">
+          Sokszor nem az a kérdés, hogy valaki képes-e újrakezdeni, hanem az, hogy
+          megtalálja-e azt a helyet, ahol újra jó érzés mozogni, fejlődni és tartozni valahová.
+        </p>
+        <p style="margin-bottom: 14px;">
+          A judo olyan valódi értékeket ad, amelyek ma különösen felértékelődtek:
+          önfegyelem, tartás, figyelem, jelenlét, küzdeni tudás.
+        </p>
+        <p>
+          Ha benned is ott van még a judo, most itt az idő, hogy újra helyet kapjon az életedben.
+        </p>
+      </div>
+    </div>
+  </section>
+<section id="orarend">
+  <div class="container">
+
+    <h2 class="section-title">Órarend</h2>
+
+    <p class="section-lead">
+      Válaszd ki azt az időpontot, ami illik hozzád – és térj vissza a judóhoz.
+    </p>
+
+    <div class="schedule-box">
+      <table>
+        <thead>
+          <tr>
+            <th>Nap</th>
+            <th>Időpont</th>
+            <th>Edzés</th>
+            <th>Korosztály</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr>
+            <td>Hétfő–Csütörtök</td>
+            <td>16:15–16:50</td>
+            <td>Kicsi ovis judo</td>
+            <td>3–4 éves korig</td>
+          </tr>
+
+          <tr>
+            <td>Hétfő–Szerda</td>
+            <td>16:15–17:00</td>
+            <td>Ovis judo</td>
+            <td>5–6 éves korig</td>
+          </tr>
+
+          <tr>
+            <td>Kedd–Csütörtök–Péntek</td>
+            <td>16:15–17:30</td>
+            <td>Haladó judo</td>
+            <td>7–9 éves korig</td>
+          </tr>
+
+          <tr>
+            <td>Hétfő–Szerda<br>Kedd–Csütörtök–Péntek</td>
+            <td>17:00–19:00<br>17:30–19:00</td>
+            <td>Versenyző judo</td>
+            <td>10 éves kortól</td>
+          </tr>
+
+          <tr>
+            <td>Hétfő-Péntek</td>
+            <td>17:00–19:00</td>
+            <td>Felnőtt Judo</td>
+            <td>18-Éves kortól</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  <section>
+    <div class="container">
+      <div class="offer-box">
+        <h2>Most 1 hónapig ingyen visszatérhetsz</h2>
+        <p>
+          Ha régen judóztál nálunk, most szeretnénk adni egy valódi lehetőséget arra,
+          hogy újra belevágj. Jelentkezz az alábbi gombra kattintva, válaszd ki az edzést,
+          és használd ki a visszatérőknek szóló 1 hónapos ingyenes ajánlatot.
+        </p>
+        <button class="btn btn-primary" onclick="openModal()">Igen, szeretnék visszatérni</button>
+        <div class="small-note">
+          Az űrlap kitöltése után a jelentkezés e-mailben megérkezik a megadott címre.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    SZVISE Judo • Egészség • Fegyelem • Alázat • Kitartás
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal" id="applyModal">
+    <div class="modal-content">
+      <button class="close-btn" onclick="closeModal()">×</button>
+      <h3>Jelentkezés az 1 hónap ingyen lehetőségre</h3>
+      <p>
+        Töltsd ki az adatokat, válaszd ki, melyik edzésre jelentkeznél, és elküldjük a jelentkezést e-mailben.
+      </p>
+
+      <form action="https://formsubmit.co/szvisejudo@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Új judo visszatérő jelentkezés a landing oldalról">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
+        <div class="form-group">
+          <label for="nev">Név</label>
+          <input type="text" id="nev" name="Név" placeholder="Add meg a neved" required>
+        </div>
+
+        <div class="form-group">
+          <label for="szuletesiEv">Születési év</label>
+          <input type="number" id="szuletesiEv" name="Születési év" placeholder="Például: 2012" min="1950" max="2025" required>
+        </div>
+
+        <div class="form-group">
+          <label for="edzes">Melyik edzésre jelentkeznél?</label>
+          <select id="edzes" name="Választott edzés" required>
+            <option value="">Válassz edzést</option>
+            <option>Kicsi Ovis</option>
+            <option>Ovis Judo</option>
+            <option>Haladó Judo</option>
+            <option>Versenyző Judo</option>
+            <option>Felnőtt Judo</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="megjegyzes">Megjegyzés (opcionális)</label>
+          <textarea id="megjegyzes" name="Megjegyzés" rows="4" placeholder="Ide írhatsz plusz infót, ha szeretnél"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary form-submit">Jelentkezés elküldése</button>
+      </form>
+    </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
