@@ -8,12 +8,15 @@ style>
     html {
       scroll-behavior: smooth;
 
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0d0f14;
-      color: #ffffff;
-      line-height: 1.6;
-    }
+   body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0d0f14;
+  color: #ffffff;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
 
     a {
       text-decoration: none;
@@ -140,11 +143,15 @@ style>
     section {
       padding: 80px 20px;
     }
-
-    .container {
-      max-width: 1150px;
-      margin: 0 auto;
-    }
+       
+.container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
 
     .section-title {
       font-size: clamp(28px, 4vw, 42px);
@@ -387,7 +394,9 @@ input, select, textarea {
         font-size: 16px;
       }
       
-    }@media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
   .slider-box {
     height: 280px;
   }
